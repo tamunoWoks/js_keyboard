@@ -2,6 +2,7 @@ html {
     font-size: 10px;
     background: url('bg.jpg') bottom center;
     background-size: cover;
+    opacity: 0.9;
 }
 
 body,html {
@@ -21,14 +22,14 @@ body,html {
 }
 
 .key {
-    border: .4rem solid whitesmoke;
+    border: .4rem solid black;
     border-radius: .5rem;
     font-size: 1.5rem;
     padding: 1rem .5rem;
     transition: all 0.7s ease;
     width: 10rem;
     text-align: center;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     color: white;
     text-shadow: 0 0.5rem black;
 }
