@@ -12,10 +12,26 @@ body,html {
     box-sizing: border-box;
 }
 
+.container{
+    min-height: 100vh;
+    text-align: center;
+}
+
+.txtbx{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #ffc600;
+    min-height: 28vh;
+    font-size: 2rem;
+    text-shadow: 0 0 1rem white;
+}
+
+
 .keys {
     display: flex;
     flex: 1;
-    min-height: 100vh;
+    min-height: 52vh;
     align-items: center;
     justify-content: center;
 }
@@ -28,7 +44,6 @@ body,html {
     padding: 1rem .5rem;
     transition: all .07s ease;
     width: 10rem;
-    text-align: center;
     background: rgba(0, 0, 0, 0.8);
     color: white;
     text-shadow: 0 0 .5rem black;
@@ -51,4 +66,5 @@ kdb {
     letter-spacing: .1rem;
     color: #ffc600;
 }
+
 
