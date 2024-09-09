@@ -1,2 +1,2 @@
 # js_keyboard
-Simple javascript exercise
+Music keyboard with NodeJs, HTML and CSS
